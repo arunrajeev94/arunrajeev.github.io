@@ -1,0 +1,313 @@
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+html{
+    scroll-behavior: smooth;
+}
+/* start of navigation */ 
+
+.header_area .main-menu .navbar{
+    box-shadow: 1px 1px 10px 1px  rgba(27, 42, 65, 0.425);  
+    padding-right:10rem;   
+}
+
+.header_area .main-menu .navbar .nav-link{
+    font-family: var(--roboto_condensed);
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: rgb(25, 25, 26);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+    background:  rgb(25, 25, 26);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;    
+}
+
+/* end navigation */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner {
+    background-image: url(../images/banner_2.png);
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.site-main .site-banner .site-title h4{
+    font-family: var(--roboto_condensed);
+    font-weight: 100;
+    color: var(--primary-color2);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.site-main .site-banner .site-title h1{
+    padding-top: 35%;
+    font-family: var(--roboto);
+    font-weight: 700;
+    color: var(--primary-color2);
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title :hover{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+
+
+
+/* Start About Area */ 
+
+.site-main .about-area {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    
+}
+
+.site-main .about-area .about-title h1 > span{
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+}
+
+.site-main .about-area .about-title h1 ::after{
+    transform:translate(100%,-10%) ;
+    transition: all 1s ease-in-out;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .5rem 0;
+    font-family: var(--roboto_condensed);
+    font-weight: 300; 
+    font-size: 1.5rem;
+    color: var(--primary-color1);
+}
+
+/* End About Area */ 
+
+/* Project Area */ 
+
+
+.site-main .project-area{
+    padding-top: 2rem;
+    padding-bottom: 20rem;
+}
+
+.site-main .project-area .embeds{
+    padding-top: 5rem;
+}
+
+.site-main .project-area .text-title-h1 {
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+}
+
+.site-main .project-area .text-secondary {
+    display: block;
+    font-family: var(--roboto_condensed);
+    font-weight: 300; 
+    font-size: 1.5rem;
+    color: var(--primary-color1);
+
+}
+
+.site-main .project-area .grid .my-project .title h3{
+    font-family: var(--roboto_condensed);
+    font-weight: 700; 
+    color: var(--primary-color1);
+}
+
+.site-main .project-area .grid .my-project .img a:hover img{
+    filter: brightness(1.2) drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transform: scale(1.1);
+}
+
+
+
+/* End Project Area */ 
+
+
+
+/* start architecture page  */
+.architecture .text-title-h1{
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+}
+
+.architecture{
+    padding-top:10rem;
+    padding-bottom:10rem;
+}
+
+.architecture .carousal{
+    padding-bottom: 2rem;
+}
+.carousal h2{
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+}
+
+.carousal .paragraph{
+    display: block;
+    font-family: var(--roboto_condensed);
+    font-weight: 300; 
+    font-size: 1.2rem;
+    color: var(--primary-color1);
+}
+
+.carousal #myCarousel_1 :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+ }
+
+ .carousal #myCarousel_2 :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+ }
+
+ .carousal #myCarousel_3 :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+ }
+
+ /*end architecture area */
+
+/* start photography and art area */
+
+.site-main .art-photography-area{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+   
+}
+
+.site-main .art-photography-area .img :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+}
+
+.site-main .art-photography-area .text-title-h1 {
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(95, 95, 95);
+}
+
+.site-main .art-photography-area .text-title {
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 400; 
+    font-size: 1.5rem;
+    color: var(--primary-color1);
+}
+
+/* start IXUX page  */
+
+.interaction-design  {
+    padding-top:10rem;
+    padding-bottom:10rem;
+}
+
+.interaction-design .text-title-h1{
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(95, 95, 95);
+}
+
+.interaction-design .carousal{
+    padding-bottom: 2rem;
+}
+.carousal h2{
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+}
+
+.carousal .paragraph{
+    display: block;
+    font-family: var(--roboto_condensed);
+    font-weight: 300; 
+    font-size: 1.2rem;
+    color: var(--primary-color1);
+}
+
+.carousal #myCarousel_1 :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+ }
+
+ .carousal #myCarousel_2 :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+ }
+
+ .carousal #myCarousel_3 :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+ }
+
+ /*end IXUX area */
+
+ /* Start Bio Area */ 
+
+.site-main .bio-area {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.site-main .bio-area .bio-title h1 > span{
+    display: block;
+    font-family: var(--roboto);
+    font-weight: 700; 
+    color: var(--primary-color1);
+}
+
+.site-main .bio-area .bio-image :hover{
+    transform: scale(1.01);
+    filter: drop-shadow(2px 5px 10px#ccc9dcff) ;
+    transition: 0.5s ease-in;
+}
+
+.site-main .bio-area .bio-title .paragraph > p{
+    padding: .5rem 0;
+    font-family: var(--roboto_condensed);
+    font-weight: 300; 
+    font-size: 1.3rem;
+    color: var(--primary-color1);
+}
+
+/* End Bio Area */ 
