@@ -300,7 +300,7 @@ html{
     display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 700; 
-    color: var(--primary-color1);
+    color: rgb(25, 25, 26);
 }
 
 .site-main .bio-area .bio-image :hover{
@@ -313,8 +313,8 @@ html{
     padding: .5rem 0;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300; 
-    font-size: 1.3rem;
-    color: var(--primary-color1);
+    font-size: 1.2rem;
+    color: rgb(25, 25, 26);
 }
 
 /* End Bio Area */ 
