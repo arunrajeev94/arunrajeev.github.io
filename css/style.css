@@ -16,7 +16,7 @@ html{
 }
 
 .header_area .main-menu .navbar .nav-link{
-    font-family: font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     padding-left: 1.2rem;
@@ -50,7 +50,7 @@ html{
    }
 
 .site-main .site-banner .site-title h4{
-    font-family: font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 100;
     color: var(--primary-color2);
     font-size: 1.5rem;
@@ -59,7 +59,7 @@ html{
 
 .site-main .site-banner .site-title h1{
     padding-top: 35%;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: var(--primary-color2);
     font-size: 4rem;
@@ -82,7 +82,7 @@ html{
 
 .site-main .about-area .about-title h1 > span{
     display: block;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700; 
     color: var(--primary-color1);
 }
@@ -94,7 +94,7 @@ html{
 
 .site-main .about-area .about-title .paragraph > p{
     padding: .5rem 0;
-    font-family: font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300; 
     font-size: 1.5rem;
     color: var(--primary-color1);
@@ -123,7 +123,7 @@ html{
 
 .site-main .project-area .text-secondary {
     display: block;
-    font-family: font-family: 'Roboto Condensed', sans-serif;
+    font-family:'Roboto Condensed', sans-serif;
     font-weight: 300; 
     font-size: 1.5rem;
     color: var(--primary-color1);
@@ -131,7 +131,7 @@ html{
 }
 
 .site-main .project-area .grid .my-project .title h3{
-    font-family:font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700; 
     color: var(--primary-color1);
 }
@@ -172,7 +172,7 @@ html{
 
 .carousal .paragraph{
     display: block;
-    font-family: font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300; 
     font-size: 1.2rem;
     color: var(--primary-color1);
