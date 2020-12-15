@@ -17,6 +17,6 @@ html, body{
     --shadow-color: rgb(31, 31, 31);
     
     /* font family variables. */ 
-    --roboto:'Roboto', sans-serif;
-    --roboto_condensed:'Roboto Condensed',sans-serif;
+    --roboto:font-family: 'Roboto', sans-serif;
+    --roboto_condensed:font-family: 'Roboto Condensed', sans-serif;
 } 
