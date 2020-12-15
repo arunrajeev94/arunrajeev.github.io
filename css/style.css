@@ -312,3 +312,30 @@ html{
 }
 
 /* End Bio Area */ 
+
+/* Footer Area */ 
+
+footer.footer-area{
+    border-top: 2px solid rgb(95, 95, 95);
+    padding: 1rem;
+    
+}
+
+footer.footer-area .social h3{
+    font-family: var(--roboto_condensed);
+    font-weight: 300; 
+    color: var(--title-color);
+    padding-bottom: 1rem;
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--title-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--border-color);
+    transition: all 1s ease-in;
+}
+
