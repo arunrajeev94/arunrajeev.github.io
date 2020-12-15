@@ -10,6 +10,7 @@ html{
 /* start of navigation */ 
 
 .header_area .main-menu .navbar{
+    
     box-shadow: 1px 1px 10px 1px  rgba(27, 42, 65, 0.425);  
     padding-right:10rem;   
 }
