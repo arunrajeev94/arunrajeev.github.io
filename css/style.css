@@ -100,16 +100,13 @@ html{
 .site-main .about-area .about-title .paragraph > p{
     padding: .5rem 0;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300; 
+    font-weight: 400; 
     font-size: 1.5rem;
     color:  rgb(25, 25, 25);
 }
-
 /* End About Area */ 
 
 /* Project Area */ 
-
-
 .site-main .project-area{
     padding-top: 2rem;
     padding-bottom: 20rem;
