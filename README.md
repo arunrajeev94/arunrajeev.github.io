@@ -6,8 +6,8 @@ The website has been created predominantly using HTML 5 and CSS and a bootstrap 
 references
 
 <p>https://github.com/akashyap2013/PortFolio_Website</p>
-https://icons.getbootstrap.com/
-https://getbootstrap.com/docs/5.0/examples/carousel/
-https://getbootstrap.com/docs/5.0/examples/navbars/
-https://www.w3schools.com/css/
-https://www.w3schools.com/bootstrap4/default.asp
+<p>https://icons.getbootstrap.com/</p>
+<p>https://getbootstrap.com/docs/5.0/examples/carousel/</p>
+<p>https://getbootstrap.com/docs/5.0/examples/navbars/</p>
+<p>https://www.w3schools.com/css/</p>
+<p>https://www.w3schools.com/bootstrap4/default.asp</p>
