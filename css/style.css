@@ -84,7 +84,7 @@ html{
     
 }
 
-.site-main .about-area .about-title h1 > span{
+.site-main .about-area .about-title .text-left h1 > span{
     display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 700; 
