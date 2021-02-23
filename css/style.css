@@ -28,7 +28,7 @@ html{
 }
 
 .header_area .main-menu .navbar .nav-link{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     padding-left: 1.2rem;
@@ -60,7 +60,7 @@ html{
    }
 
 .site-main .site-banner .site-title h4{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 100;
     color:  rgb(228, 228, 228);
     font-size: 1.5rem;
@@ -70,7 +70,7 @@ html{
 
 .site-main .site-banner .site-title h1{
     padding-top: 35%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 700;
     color: rgb(228, 228, 228);
     font-size: 4rem;
@@ -90,7 +90,7 @@ html{
 
 .site-main .about-area .about-title h1 > span{
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 700; 
     color:  rgb(25, 25, 25);
 }
@@ -103,7 +103,7 @@ html{
 
 .site-main .about-area .about-title .paragraph > p{
     padding: .5rem 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 300; 
     font-size: 1.5rem;
     color:  rgb(25, 25, 25);
@@ -122,7 +122,7 @@ html{
 
 .site-main .project-area .text-title-h1 {
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: 700; 
     color:  rgb(25, 25, 25);
 }
